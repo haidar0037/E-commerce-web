@@ -4,7 +4,7 @@ import React, { createContext, useEffect, useState } from "react";
 export const ShopContext = createContext(null);
 
 const ShopContextProvider = (props) => {
-  const backend_url = 'http://localhost:4000'
+  const backend_url = 'https://e-commerce-web-backend-bbwv.onrender.com'
 
   const [products, setProducts] = useState([]);
 
